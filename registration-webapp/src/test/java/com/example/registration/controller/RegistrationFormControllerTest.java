@@ -13,7 +13,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.validation.BindingResult;
 
-import com.example.registration.controller.RegistrationFormController;
 import com.example.registration.model.WebRegistration;
 
 @RunWith(SpringJUnit4ClassRunner.class)
