@@ -1,7 +1,7 @@
 registration
 ======
 
-Example of usage: JPA, JAXB, Spring MVC/ORM/OXM, ExtJS, JPA/Hibernate integration tests and Selenium integration tests (maven)
+Example of usage: JPA, JAXB, Spring MVC/ORM/OXM, JSR-303 validations, ExtJS, JPA/Hibernate integration tests and Selenium integration tests (maven)
 
 Info
 -------
