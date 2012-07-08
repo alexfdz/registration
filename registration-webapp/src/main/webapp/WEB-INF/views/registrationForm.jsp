@@ -4,8 +4,8 @@
 <head>
 	<title>Registration manager</title>
 	<link href="<c:url value="/resources/ext-3.3.1/resources/css/ext-all.css" />" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="<c:url value="/resources/ext-3.3.1/adapter/ext/ext-base-debug.js" />"></script>
-	<script type="text/javascript" src="<c:url value="/resources/ext-3.3.1/ext-all-debug.js" />"></script>
+	<script type="text/javascript" src="<c:url value="/resources/ext-3.3.1/adapter/ext/ext-base.js" />"></script>
+	<script type="text/javascript" src="<c:url value="/resources/ext-3.3.1/ext-all.js" />"></script>
 	<style type="text/css">
 		body {
 		  	font: normal 12px helvetica,arial,verdana,tahoma,sans-serif;
