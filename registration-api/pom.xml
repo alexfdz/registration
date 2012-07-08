@@ -8,9 +8,9 @@
 	<packaging>jar</packaging>
 
 	<scm>
-		<connection>scm:git:git@github.com:alexfdz/user-registration.git</connection>
-		<url>scm:git:git@github.com:alexfdz/user-registration.git</url>
-		<developerConnection>scm:git@github.com:alexfdz/user-registration.git</developerConnection>
+		<connection>scm:git:git@github.com:alexfdz/registration.git</connection>
+		<url>scm:git:git@github.com:alexfdz/registration.git</url>
+		<developerConnection>scm:git@github.com:alexfdz/registration.git</developerConnection>
 	</scm>
 
 	<developers>
