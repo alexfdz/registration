@@ -1,6 +1,7 @@
 registration
 ======
 
+Example of usage: JPA, JAXB, Spring MVC/ORM/OXM, ExtJS, JPA/Hibernate integration tests and Selenium integration tests (maven)
 
 Info
 -------
@@ -34,14 +35,11 @@ Test, build and install the registration-api library
 Test, build and install the registration-webapp application
 
     cd registration-webapp
-    mvn clean jetty:run
-
-Run the registration-webapp integration tests
-
-    mvn integration-test	
+    mvn clean install
     
 Run the registration-webapp application
 
+    cd registration-webapp
     mvn jetty:run	
 
-Access to the deployed application [localhost:8080](http://localhost:8080/)
+Access to the deployed application [localhost:8080/registration-webapp/](http://localhost:8080/registration-webapp/)
