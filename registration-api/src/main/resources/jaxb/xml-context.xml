@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd">
+
+    <import resource="classpath:/base-context.xml"/>
+     
+   	<context:property-placeholder location="classpath:/jaxb/jaxb.properties" />
+
+    <context:annotation-config/>
+    
+    <bean id="registrationDao" class="com.example.registration.dao.impl.XMLRegistrationDao">
+         <property name="file" value="${dao.file}"/>
+    </bean>
+    
+    <bean id="marshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+        <property name="packagesToScan" value="com.example.registration.model"/>
+        <property name="marshallerProperties">
+            <util:map map-class="java.util.Hashtable">
+                <entry key="jaxb.formatted.output"><value type="java.lang.Boolean">true</value></entry>
+            </util:map>
+    	</property>
+    </bean>
+    
+</beans>
