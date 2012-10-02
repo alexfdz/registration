@@ -3,7 +3,7 @@ registration
 
 Example of usage: JPA, JAXB, Spring MVC/ORM/OXM, JSR-303 validations, ExtJS, JPA/Hibernate integration tests and Selenium integration tests (maven)
 
-Assigment requirements	
+Assignment requirements	
 -------
 
 Imagine that you are part of a team that is creating a new library from scratch to capture user registration details and store them in a repository. 
